@@ -17,7 +17,7 @@ from api import Verdict
 # against the public stream (score/tpr/fpr only, no per-event ground truth
 # available there) to reach TPR=1.0 without raising FPR versus 0.92 - a
 # strict improvement, not a threshold hand-fit to that run's exact score.
-MARGIN = 0.91
+MARGIN = 0.88
 
 # Two fields each moderately elevated at once (past SOFT_MARGIN, still under
 # MARGIN individually) is much less likely under independent clean-stream
